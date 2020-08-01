@@ -158,7 +158,6 @@ def player_stats(input)
       if key == :players
         value.each do |player|
           if input == player[:player_name]
-            player("Jeff Adrien")
             return player
           end
         end
